@@ -1,0 +1,38 @@
+html {
+	-webkit-font-smoothing: antialiased;
+}
+body { 
+	background-color: LightGray;
+}
+div {
+	border: 1px solid Chocolate;
+}
+.nav-logo {
+	float: left;
+	margin-top: 1rem;
+}
+.links {
+	float: right;
+	margin-top: 1.5rem;
+}
+.links > li{
+	display: inline-block;
+	margin-left: 20px;
+}
+.karma-nav {
+	background-color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+}
+.karma-nav > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+.karma-nav .links > .active {
+	color: #4c5058;
+    font-weight: 500;
+}
