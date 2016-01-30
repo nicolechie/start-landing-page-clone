@@ -27,6 +27,9 @@ div {
 }
 .karma-nav {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 
 }
 .karma-nav > .content {
@@ -102,4 +105,20 @@ button.learn-more:hover {
 	display: inline-block;
 	width: 33.33333%;
 	float: left;
+}
+.social {
+	text-align: center;
+}
+.social .icons > li{
+	border-radius: 1.25rem;
+	border: 1px solid #eaebec;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: inline-block;
+	margin: 1.25rem 5px;
+	padding: 0 .625rem 0;
+	text-align: center;
+}
+.social .twitter {
+	color: #55acee;
 }
