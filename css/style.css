@@ -6,11 +6,7 @@ html {
 }
 
 body { 
-	background-color: LightGray;
 	font-family: 'Roboto', sans-serif;
-}
-div {
-	border: 1px solid Chocolate;
 }
 .nav-logo {
 	float: left;
@@ -107,7 +103,9 @@ button.learn-more:hover {
 	float: left;
 }
 .social {
-	text-align: center;
+    background-color: #fff;
+    padding-bottom: 9.375rem;
+    text-align: center;
 }
 .social .icons > li{
 	border-radius: 1.25rem;
@@ -116,9 +114,25 @@ button.learn-more:hover {
 	height: 2.5rem;
 	display: inline-block;
 	margin: 1.25rem 5px;
-	padding: 0 .625rem 0;
+	padding: 0.625rem 0;
 	text-align: center;
 }
-.social .twitter {
+.social .twitter a{
 	color: #55acee;
+}
+.social .facebook a {
+	color: #4c66a4;
+}
+.social .instagram a {
+	color: #3f729b;
+}
+.social h5 {
+	padding-left: 40px;
+	font-weight: 400;
+	font-size: 1rem;
+}
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
 }
